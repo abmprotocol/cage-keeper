@@ -36,7 +36,7 @@ from pymaker.token import ERC20Token
 from pymaker.deployment import DssDeployment
 from pymaker.dss import Ilk, Urn
 
-from auction_keeper.urn_history import UrnHistory
+from auction_keeper.urn_history import UrnHistoryProvider
 from auction_keeper.gas import DynamicGasPrice
 
 class CageKeeper:
